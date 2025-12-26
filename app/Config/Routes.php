@@ -21,6 +21,8 @@ $routes->setDefaultMethod('index');
 $routes->setTranslateURIDashes(false);
 $routes->set404Override();
 $routes->get('users', 'Users::index');
+$routes->get('users/create', 'Users::create');
+$routes->post('users/store', 'Users::store');
 
 /*
  * --------------------------------------------------------------------

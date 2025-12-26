@@ -11,6 +11,8 @@
 <body>
 
 <h2>Users</h2>
+<a href="<?= site_url('users/create') ?>">+ Add New User</a>
+<br><br>
 
 <table>
     <tr>
